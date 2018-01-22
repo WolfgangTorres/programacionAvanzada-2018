@@ -26,4 +26,8 @@ int main(int argc, char const *argv[])
 	printf("Fullname = %s\n", fullName);
 	free(fullName);
 	return 0;
+
+	/*git add archivoName
+	  git commit -m "titulo"
+	  git push -u origin master*/
 }
