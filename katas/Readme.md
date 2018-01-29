@@ -48,9 +48,36 @@ Si no fuera el caso mas sencillo como lo haria?? Agarrar el primer elemento del 
 
 Contexto
 
-Se puede hacer obtener un elemento del arreglo y ese elemento lo buscas en el otro arreglo usando otro for. Esto seria n^2
+Se puede  obtener un elemento del arreglo y ese elemento lo buscas en el otro arreglo usando otro for. Esto seria n^2
 
 No estoy muy seguro de que otra forma se pudiera hacer pero creo que con hashtables
 
 Funciona
 Le pasas los dos arreglos y el tamaño. Usas dos for, el primero para agarrar el primer elemento y el segundo for para comparar ese elemento en el otro arreglo hasta encontrarlo.
+
+
+Kata2:
+
+A password is considered strong if below conditions are all met:
+
+It has at least 6 characters and at most 20 characters.
+It must contain at least one lowercase letter, at least one uppercase letter, and at least one digit.
+It must NOT contain three repeating characters in a row ("...aaa..." is weak, but "...aa...a..." is strong, assuming other conditions are met).
+Write a function strongPasswordChecker(s), that takes a string s as input, and return the MINIMUM change required to make s a strong password. If s is already strong, return 0.
+
+
+break down:
+
+El caso mas sencillo cual sera?? Cuando todos los caracteres cumplen con los terminos -> return 0
+
+Si no fuera el caso mas sencillo como lo haria?? Agarrar el primer elemento del arreglo de caracteres y comparar para ver si cumple con los requerimientos
+
+Contexto
+
+Se comparan uno por uno los elementos utilizando un for. Esto seria n
+
+No se de que otra forma hacerlo.
+
+Funciona
+
+Le pasas un arreglo de caracteres a la funcion. Utilizando unas librerias de c, se usan funciones que ya checan si tiene mayusculas, minusculas y digito, y otra para usar booleanos. Comparo los caracteres dentro de un for, y si cumplen con los requerimientos hago los booleanos verdaderos.
