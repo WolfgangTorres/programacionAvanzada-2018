@@ -81,3 +81,26 @@ No se de que otra forma hacerlo.
 Funciona
 
 Le pasas un arreglo de caracteres a la funcion. Utilizando unas librerias de c, se usan funciones que ya checan si tiene mayusculas, minusculas y digito, y otra para usar booleanos. Comparo los caracteres dentro de un for, y si cumplen con los requerimientos hago los booleanos verdaderos.
+
+Kata3:
+
+Initially, there is a Robot at position (0, 0). Given a sequence of its moves, judge if this robot makes a circle, which means it moves back to the original place.
+
+The move sequence is represented by a string. And each move is represent by a character. The valid robot moves are R (Right), L(Left), U (Up) and D (down). The output should be true or false representing whether the robot makes a circle.
+
+
+break down:
+
+El caso mas sencillo cual sera?? Cuando no escribe nada
+
+Si no fuera el caso mas sencillo como lo haria?? Agarrar el primer elemento del arreglo de caracteres y empezar a comparar con un for
+
+Contexto
+
+Se comparan uno por uno los elementos utilizando un for. Esto seria n
+
+No se de que otra forma hacerlo que fuera mas sencilla. 
+
+Funciona
+
+Le pasas un arreglo de caracteres a la funcion. Utilizando unas librerias de c, se checa cada caracter dentro de un for. Y dependiendo del caracter incremento o disminuyo, x o y. X/Y se inicializan en ceros, si al final estan en ceros camino en circulos.
