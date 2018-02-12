@@ -13,3 +13,6 @@ Output
 You should output a single number: the number of ways the tourist can plan his trip. Note that 2 trips are identical if the successions of the 3*N cities are identical or if the succession of the 3*N cities of the first trip is the same as the succession of the 3*N cities of the 2nd trip, read backwards (for instance, if every island had 1 city, numbered according to the island's number, the trips 1-2-3-1 and 1-3-2-1 would be identical).
 
 
+![27999457_10156072460765351_1512789804_o](https://user-images.githubusercontent.com/5618155/36121336-748cbbfc-100b-11e8-8d68-f75ad8b9daad.jpg)
+
+![28034274_10156072460850351_1098341814_o](https://user-images.githubusercontent.com/5618155/36121473-e7390638-100b-11e8-8f47-1bd303209f83.jpg)
