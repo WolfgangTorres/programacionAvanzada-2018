@@ -104,3 +104,31 @@ No se de que otra forma hacerlo que fuera mas sencilla.
 Funciona
 
 Le pasas un arreglo de caracteres a la funcion. Utilizando unas librerias de c, se checa cada caracter dentro de un for. Y dependiendo del caracter incremento o disminuyo, x o y. X/Y se inicializan en ceros, si al final estan en ceros camino en circulos.
+
+
+Kata4:
+Validate if a given string is numeric.
+
+Some examples:
+"0" => true
+" 0.1 " => true
+"abc" => false
+"1 a" => false
+"2e10" => true
+Note: It is intended for the problem statement to be ambiguous. You should gather all requirements up front before implementing one.
+
+break down:
+
+El caso mas sencillo cual sera?? Cuando no escribe nada
+
+Si no fuera el caso mas sencillo como lo haria?? usar un for para recorrer el string y compararlo 
+
+Contexto
+
+Se comparan uno por uno los elementos utilizando un for. Esto seria n
+
+Se prodia hacer tambien untilizando whiles e ifs . 
+
+Funciona
+
+Le pasas un arreglo de caracteres a la funcion. Utilizando unas librerias de c, se checa cada caracter dentro de un for. Y dependiendo del caracter se ve si es numero y si es asi se valida sino se rechaza.

@@ -29,12 +29,12 @@ bool isCircular(char path[])
 
 int main()
 {
-    char path[] = "RLLRUD";
-    if (isCircular(path))
-      printf("Given sequence of moves is circular\n");
-    else
-      printf("Given sequence of moves is NOT circular\n");
-    return 0;
+  char path[] = "RLLRUD";
+  if (isCircular(path))
+    printf("Given sequence of moves is circular\n");
+  else
+    printf("Given sequence of moves is NOT circular\n");
+  return 0;
 }
 
 

@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
 	char firstName[] = "Andres";//crea arreglo y puedo modificarlo
 	char *lastName = "Torres";//constante
 	char *fullName;
-
+	printf("%p\n", &lastName );
 	doFullName(firstName,lastName,&fullName);
 	printf("Fullname = %s\n", fullName);
 	free(fullName);
