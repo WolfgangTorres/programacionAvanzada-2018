@@ -132,3 +132,30 @@ Se prodia hacer tambien untilizando whiles e ifs .
 Funciona
 
 Le pasas un arreglo de caracteres a la funcion. Utilizando unas librerias de c, se checa cada caracter dentro de un for. Y dependiendo del caracter se ve si es numero y si es asi se valida sino se rechaza.
+
+Kata5:
+
+You want to build a word cloud, an infographic where the size of a word corresponds to how often it appears in the body of text.
+
+To do this, you'll need data. Write code that takes a long string and builds its word cloud data in a hash table ↴ , where the keys are words and the values are the number of times the words occurred.
+
+Think about capitalized words. For example, look at these sentences:
+
+"After beating the eggs, Dana read the next step:"
+
+"Add milk and eggs, then add flour and sugar."
+
+What do we want to do with "After", "Dana", and "add"? In this example, your final hash table should include one "Add" or "add" with a value of 2
+
+Make reasonable (not necessarily perfect) decisions about cases like "After" and "Dana".
+
+break down:
+
+El caso mas sencillo cual sera?? Cuando no escribe nada o cuando hay una sola palabra
+
+Si no fuera el caso mas sencillo como lo haria?? Utilizando una hashtable donde la palabra sea la key y contenga un int que indica el numero de de veces que ha aparecido la palabra
+
+Contexto
+
+Tendriamos que recorrer todo el string completo para obtener las palabras y luego hacer funciones individuales para comparar las palabras quitandole mayusculas ya que no importa que una este en minusculas o mayusculas cuentan iguales. Luego utilizamos la hashtable para hacer keys con las palabras y ahi ponemos el numero de veces que se repiten. Esto va a tener un running time de O(n).
+
