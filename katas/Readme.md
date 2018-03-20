@@ -159,3 +159,29 @@ Contexto
 
 Tendriamos que recorrer todo el string completo para obtener las palabras y luego hacer funciones individuales para comparar las palabras quitandole mayusculas ya que no importa que una este en minusculas o mayusculas cuentan iguales. Luego utilizamos la hashtable para hacer keys con las palabras y ahi ponemos el numero de veces que se repiten. Esto va a tener un running time de O(n).
 
+Kata5:
+
+Batman will look for the hostages on a given building by jumping from one window to another using his grapnel gun. Batman's goal is to jump to the window where the hostages are located in order to disarm the bombs. Unfortunately he has a limited number of jumps before the bombs go off...
+
+Before each jump, the heat-signature device will provide Batman with the direction of the bombs based on Batman current position:
+
+(Up)
+UR (Up-Right)
+R (Right)
+DR (Down-Right)
+D (Down)
+DL (Down-Left)
+L (Left)
+UL (Up-Left)
+
+
+break down:
+
+El caso mas sencillo cual sera?? cuando esta justo a lado nada mas seria incrementar o decrementar X o Y en 1.
+
+Si no fuera el caso mas sencillo como lo haria?? Ya sea incrementanto en uno tanto X o Y dependiendo las direcciones o usando un algoritmo como binary search.
+
+Contexto
+
+Para hacer esta kata utilice binary search por que no sabemos que tan grande va a ser el edificio y cuantos turnos tiene batman a lo mejor necesita dar saltos muy grande por que tiene muy pocos turnos y el edificio es grande, por eso use binary search porque parte a la mitad el arreglo y se va por mitades hasta encontrar el numero o en este caso la posicion, y el tiempo seria O(log n).
+
