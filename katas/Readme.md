@@ -159,7 +159,7 @@ Contexto
 
 Tendriamos que recorrer todo el string completo para obtener las palabras y luego hacer funciones individuales para comparar las palabras quitandole mayusculas ya que no importa que una este en minusculas o mayusculas cuentan iguales. Luego utilizamos la hashtable para hacer keys con las palabras y ahi ponemos el numero de veces que se repiten. Esto va a tener un running time de O(n).
 
-Kata5:
+Kata7:
 
 Batman will look for the hostages on a given building by jumping from one window to another using his grapnel gun. Batman's goal is to jump to the window where the hostages are located in order to disarm the bombs. Unfortunately he has a limited number of jumps before the bombs go off...
 
@@ -184,4 +184,21 @@ Si no fuera el caso mas sencillo como lo haria?? Ya sea incrementanto en uno tan
 Contexto
 
 Para hacer esta kata utilice binary search por que no sabemos que tan grande va a ser el edificio y cuantos turnos tiene batman a lo mejor necesita dar saltos muy grande por que tiene muy pocos turnos y el edificio es grande, por eso use binary search porque parte a la mitad el arreglo y se va por mitades hasta encontrar el numero o en este caso la posicion, y el tiempo seria O(log n).
+
+Kata8:
+
+Win the race.
+
+Rules
+The circuit of the race is made up of checkpoints. To complete one lap, your vehicle (pod) must pass through each checkpoints in order and back through the start. The first player to reach the starting checkpoint on the final lap wins.
+
+break down:
+
+el caso mas sencillo seria que la carrera fuera nada mas de un punto, comienzo y fin. Ahi nada mas tendria que poner la velocidad al 100
+
+Contexto
+
+la carrera tiene checkpoints y son de vueltas entonces lo que hice fue nada mas checar cuando llegues a un checkpoint el angulo cuando sea mayor de 90 o -90 dependiendo del lado que se baje la velocidad para que pueda girar mas rapido una vez que el angulo ya se menor que 90 que la velocidad sea al 100.
+
+<img width="1280" alt="screen shot 2018-04-01 at 12 19 04" src="https://user-images.githubusercontent.com/5618155/38175824-4ccadc1c-35a8-11e8-85ac-bd674275c61e.png">
 
