@@ -1,3 +1,30 @@
+/*
+
+El codigo contiene dos files uno para leer y otro para escribir
+
+Creamos un arreglo de caracteres
+
+Entonces en un while obtenemos las lines del archivo que vamos a leer
+
+entonces dentro del while llamo a la funcion revertir que recibe como parametro un arreglo de caracteres
+
+sacamos el lenght apoyandome de librerias externas
+
+creamo dos arreglos temporales
+
+recorremos la linea de atras hacia adelante cuando haya un espacio copiamos la palabra a un arreglo tmp
+
+ya que lleguemos a la ultima palabra salimos del for y copiamos la palabra al otro arreglo temporal
+
+
+creamos un puntero char, creamos espacio para juntar las palabras en ese puntero, luego las copiamos y al final lo regresamos
+
+por ultimo lo escribimos en el otro archivo
+
+ME FALTO TIMEPO PROFESOR PERDON :(
+
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -13,7 +40,7 @@ char* revertirPalabra(char string[])
     int i;
     for (i = length - 1; i >= 0; i--) {
         if (string[i] == ' ') {        
-            string[i] = '\0';
+            
  			
             strcpy(tmp, &(string[i]) + 1);
             
@@ -23,7 +50,7 @@ char* revertirPalabra(char string[])
     strcpy(tmp2, string);
     char * stringReverse ;
 	if((stringReverse = malloc(strlen(tmp)+strlen(tmp2)+1)) != NULL){
-	    //stringReverse[0] = '\0';   
+	       
 	    strcpy(stringReverse,tmp);
 	    strcat(stringReverse," ");
 	    strcat(stringReverse,tmp2);
